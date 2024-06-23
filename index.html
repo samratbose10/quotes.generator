@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quotes Generator</title>
+    <title>Random Quote and Dinosaur</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="stars" id="starsContainer"></div>
     <div class="container">
-        <h1>Random Quotes Generator</h1>
-        <div class="quote-box">
-            <p id="quote">Click the button to generate a quote!</p>
+        <button id="newQuoteBtn">New Quote</button>
+        <div id="quoteContainer">
+            <p id="quoteText">Click the button to get a new quote and dinosaur image!</p>
         </div>
-        <button id="new-quote">New Quote</button>
+        <div id="imageContainer">
+            <img id="dinoImage" src="" alt="Dinosaur Image">
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
-    // Fetch an initial random dinosaur image on page load
+    
     getRandomDinoImage();
 
-    // Generate stars for the background
+
     const starsContainer = document.getElementById('starsContainer');
     for (let i = 0; i < 100; i++) {
         const star = document.createElement('div');

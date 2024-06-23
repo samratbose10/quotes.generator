@@ -16,7 +16,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 1; /* Ensure container is above stars */
+    z-index: 1; 
 }
 
 button {
@@ -47,7 +47,7 @@ button:hover {
     height: auto;
 }
 
-/* Stars */
+
 .stars {
     position: absolute;
     width: 100%;
@@ -56,7 +56,7 @@ button:hover {
     overflow: hidden;
     top: 0;
     left: 0;
-    z-index: 0; /* Ensure stars are below other content */
+    z-index: 0; 
 }
 
 .star {
